@@ -1,0 +1,74 @@
+/* Estilos adicionales para mejorar la apariencia y centrado */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px; /* Ancho máximo del contenido */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.logopng {
+    width: 39px;
+}
+
+.shop {
+    margin-top: 50px; /* Espacio entre el encabezado y el contenido */
+}
+
+.product-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-img {
+    width: 100%;
+    max-width: 300px; /* Ancho máximo de la imagen */
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.add-cart {
+    margin-top: 20px;
+}
